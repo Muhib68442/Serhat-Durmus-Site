@@ -1,0 +1,158 @@
+/*normal css*/
+/*preffered pc*/
+.html{
+    scroll-behavior: smooth;
+    
+}
+hr{
+    background-color: #171717;
+    border: 2px solid black;
+}
+
+.dotted-hr{
+    border: 6px dotted white;
+    border-bottom: none;
+    margin: 10px auto;
+    width: 70px;
+}
+.main-page{
+    position: relative;
+}
+.title-sd{
+    position: absolute;
+    font-size: 3.0rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:rgba(245, 245, 245, 0.582);
+    font-family: 'Montserrat', sans-serif;
+}
+.title-dive{
+    position: absolute;
+    font-size: 3.0rem;
+    top: 59%;
+    left: 51%;
+    transform: translate(-50%, -50%);
+    color:rgba(245, 245, 245, 0.377);
+    font-family: 'Raleway', sans-serif;
+}
+.main-page img{
+   max-width: 100%;
+   opacity: 90%;
+   
+}
+.headphone-emoji{
+    width: 55px;
+    opacity: 50%;
+}
+
+h3{
+    font-family: 'Noto Sans HK', sans-serif;
+    text-align: center;
+    padding: 2%;
+
+}
+.second-page{
+    background-color: #171717;
+    color: white;
+}
+.about{
+    background-color: #171717;
+    color: white;
+}
+.col-4{
+    padding: 100px 100px;
+}
+ .profile-pic {
+    width: 300px;
+    
+    border-radius: 20px;
+    
+}
+.about-section h4{
+    font-size: 1.5rem;
+    font-weight: lighter;
+    padding: 0px 30px;
+}
+.about-section .h6{
+    font-size: 1.0rem;
+    padding: 0px 30px;
+
+}
+.video-page{
+    color: white;
+    text-align: center;
+}
+
+
+/*carousel*/
+.car #feedback{
+    background: #171717;
+    padding: 4% 10%;
+}
+.section-title .hr-style{
+    border: 3px dotted white;
+    border-bottom: none;
+    width: 90px;
+    margin: 0 auto;
+}
+.feedback-image{
+    width: 240px;
+    height: auto;
+}
+.carousel-item{
+    padding: 5% 12%;
+    text-align: center;
+    font-style: italic;
+    font-size: 1.3rem;
+}
+.carousel-indicators{
+    bottom: -20px;
+}
+/*carosel end*/
+
+.links{
+    background-color: #171717;
+    
+    
+}
+.links h4,h5{
+    color: white;
+}
+h5,i{
+    float: left;
+    margin: 1px 5px;
+    padding: 7px;
+}
+
+.youtube,.facebook,.spotify,.instagram{
+    padding: 10px 10px;
+}
+
+
+
+
+
+footer{
+    background-color: rgba(0, 0, 0, 0.863);
+    padding: 30px;
+}
+footer a{
+    text-decoration: none;
+    padding: 10px;
+}
+footer h4{
+    color: black;
+    font-size: 1.0rem;
+    font-weight: lighter;
+    float: right;
+}
+
+
+
+
+/*font
+font-family: 'Montserrat', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Noto Sans HK', sans-serif;
+*/
